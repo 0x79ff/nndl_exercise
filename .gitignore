@@ -1,0 +1,12 @@
+chap5_CNN/mnist/MNIST/raw/t10k-images-idx3-ubyte
+chap5_CNN/mnist/MNIST/raw/t10k-images-idx3-ubyte.gz
+chap5_CNN/mnist/MNIST/raw/t10k-labels-idx1-ubyte
+chap5_CNN/mnist/MNIST/raw/t10k-labels-idx1-ubyte.gz
+chap5_CNN/mnist/MNIST/raw/train-images-idx3-ubyte
+chap5_CNN/mnist/MNIST/raw/train-images-idx3-ubyte.gz
+chap5_CNN/mnist/MNIST/raw/train-labels-idx1-ubyte
+chap5_CNN/mnist/MNIST/raw/train-labels-idx1-ubyte.gz
+chap5_CNN/MNIST_data/t10k-images-idx3-ubyte.gz
+chap5_CNN/MNIST_data/t10k-labels-idx1-ubyte.gz
+chap5_CNN/MNIST_data/train-images-idx3-ubyte.gz
+chap5_CNN/MNIST_data/train-labels-idx1-ubyte.gz
