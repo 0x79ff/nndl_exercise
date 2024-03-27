@@ -196,7 +196,7 @@ def pretty_print_poem(poem):  # 令打印的结果更工整
 
 
 def gen_poem(begin_word):
-    #poems_vector, word_int_map, vocabularies = process_poems2('./tangshi.txt')  #  use the other dataset to train the network
+   # poems_vector, word_int_map, vocabularies = process_poems2('./tangshi.txt')  #  use the other dataset to train the network
     poems_vector, word_int_map, vocabularies = process_poems1('./poems.txt')
     word_embedding = rnn.word_embedding(vocab_length=len(word_int_map) + 1, embedding_dim=100)
     rnn_model = rnn.RNN_model(batch_sz=64, vocab_len=len(word_int_map) + 1, word_embedding=word_embedding,
@@ -222,7 +222,7 @@ def gen_poem(begin_word):
 
 
 
-run_training()  # 如果不是训练阶段 ，请注销这一行 。 网络训练时间很长。
+#run_training()  # 如果不是训练阶段 ，请注销这一行 。 网络训练时间很长。
 
 
 pretty_print_poem(gen_poem("日"))
